@@ -10,9 +10,9 @@ This program was executed in Blender using the text editor window by copy and pa
 it there. The files we are inputing has the red, green, and blue values in the
 18th, 19th, and 20th columns (index zero) respectively. If for whatever reason your 
 RGB values are in different columns you have to change the script accordingly at
-commented area.
+commented area (LINES 43-45).
 
-You must change the directory ('data') accordingly to point to your RGB data that was output
+You must change the directory ('data') on LINE 24 accordingly to point to your RGB data that was output
 from 'gaussianColormapCreation.py'
 
 Following running this in Blender you must create a material containing the color
