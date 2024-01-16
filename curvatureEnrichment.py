@@ -9,13 +9,13 @@ This program takes intensity values or grey values from a 3D stack of images and
 them with gaussian curvature values measured at a cells surface.
 
 INPUT: A '.csv' file containing gaussian curvature data generated from LimeSeg and
-a '.tif' file containing a 3D stack of images
+a '.tif' file containing a 3D stack of fluorescent values channel.
 
 OUTPUT: A '.csv' file containing cell surface gaussian curvature data paired with their
 corresponding, background subtracted, grey value/intensity.
 
-You must change the directory accordingly to point to where the two input files reside.
-You must change the file name accordingly to the file containing the curvature data.
+You must change the directory accordingly to point to where the two input files reside. (LINE 27)
+You must change the file name accordingly to the file containing the curvature data. (LINE 28)
 Your 3D stack '.tif' files must have the prefix 'C2-' to work correctly.
 """
 
