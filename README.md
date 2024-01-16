@@ -13,5 +13,8 @@ All scripts were written with python version 3.8
 
 Python modules required are:
 - pandas
-- 
+- skimage
+- matplotlib
+- bpy
+- csv
 '''
