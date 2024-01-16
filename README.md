@@ -7,7 +7,11 @@ This repository contains the custom python scripts written for our halofilin pap
 
 1. A python script that converts the gaussian curvature data into RGB color values called "gaussianColormapCreation.py"
 2. A python script used in the software Blender to color a cell's surface with the RBG values from script #1, called "blenderImportColormapToCell.py"
-3. A python script that maps gaussian curvature data of a cell's surface to the fluorescent signal of halofilins at the membrane
+3. A python script that maps gaussian curvature data of a cell's surface to the fluorescent signal of halofilins at the membrane called "curvatureEnrichment.py"
 
 All scripts were written with python version 3.8
+
+Python modules required are:
+- pandas
+- 
 '''
