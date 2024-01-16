@@ -14,10 +14,11 @@ numbers
 Output: a new '.csv' file saved to the same directory as the input file. It has the 
 same name as the input file with the extension '_blenderColors.csv'
 
-Red values are assigned to negative numbers and blue values to positive numbers.
+Red values are assigned to negative numbers and blue values to positive numbers. White
+is assigned to values of zero.
 
 User must change 'directory' and 'file' in the main function to be appropriate for
-their input file.
+their input file (LINES 29 & 30)
 """
 
 import pandas as pd
